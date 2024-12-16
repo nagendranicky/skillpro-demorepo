@@ -1,32 +1,30 @@
 server:
   port: 8086
+
 spring:
   application:
-    name: payment-service # Change to your microservice name
+    name: payment-service # Microservice name
   datasource:
-    url: jdbc:mysql://localhost:3306/skillprodb # Replace `your_database_name` with your DB name
-    username: root # Replace with your MySQL username
-    password: 8900 # Replace with your MySQL password
+    url: jdbc:mysql://auth-db983.hstgr.io:3306/u838678030_skillpro_db # Remote database URL
+    username: u838678030_skillpro_db # Remote database username
+    password: Skillprodb@123 # Remote database password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update # Use `create`, `update`, or `none` based on your requirements
-    show-sql: true # Shows SQL queries in the logs
+      ddl-auto: update # Automatically manage schema changes
+    show-sql: true # Enable SQL query logging
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect # Use MySQL5Dialect for older versions
+        dialect: org.hibernate.dialect.MySQL8Dialect # MySQL 8.x Dialect
   cloud:
     feign:
       client:
         config:
           default:
-            connectTimeout: 5000
-            readTimeout: 5000
-
+            connectTimeout: 5000 # Feign client connect timeout
+            readTimeout: 5000 # Feign client read timeout
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
-
-
+      defaultZone: http://localhost:8761/eureka/ # Eureka server URL

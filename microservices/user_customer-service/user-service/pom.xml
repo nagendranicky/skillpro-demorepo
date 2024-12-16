@@ -59,11 +59,7 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- Category-Service Dependency -->
-		<dependency>
-			<groupId>com.Category</groupId>
-			<artifactId>Category-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>

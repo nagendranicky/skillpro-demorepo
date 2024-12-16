@@ -5,22 +5,18 @@ spring:
   application:
     name: ExpertiseCategory-Service
   datasource:
-    url: jdbc:mysql://localhost:3306/skillprodb
-    username: root
-    password: 8900
+    url: jdbc:mysql://auth-db983.hstgr.io:3306/u838678030_skillpro_db # Remote database URL
+    username: u838678030_skillpro_db # Remote database username
+    password: Skillprodb@123 # Remote database password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update
-    show-sql: true
+      ddl-auto: update # Automatically manage schema changes
+    show-sql: true # Enable SQL query logging
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MySQL8Dialect # MySQL 8.x Dialect
 
-
-
-# Uncomment if you are not using Eureka
-#ExpertiseCategory-Service:
-#  url: http://localhost:8090
-
-
+# Uncomment if Eureka is not used and provide the service URL
+# ExpertiseCategory-Service:
+#   url: http://localhost:8090

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/microservices/notification-service/NotificationService-20241213T055945Z-001/NotificationService/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/expertise-service/expertise/expertise/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/booking-service/BookingService-20241213T055804Z-001/BookingService/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/review-service/ReviewService-20241213T055735Z-001/ReviewService/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/payment-service/paymentService/paymentService/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/SkillproSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/user_customer-service/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/product-service/product-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

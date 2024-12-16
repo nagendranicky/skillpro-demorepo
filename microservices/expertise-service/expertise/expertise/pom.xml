@@ -83,16 +83,8 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<!-- Eureka Discovery Client (Optional) -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>expertiseCategory</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
+
+
 
 	</dependencies>
 
